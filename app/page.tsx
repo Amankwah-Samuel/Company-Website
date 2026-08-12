@@ -12,7 +12,7 @@ setCount((count + 1));
 setCount((count - 1));
   }
   function reset (){
-setCount((count));
+setCount((0));
   }
 
 
@@ -61,7 +61,7 @@ setCount((count));
                 </button>
               </div>
 
-              <button className="ml-4 text-sm text-red-500 hover:text-red-700">
+              <button  onClick={reset} className="ml-4 text-sm text-red-500 hover:text-red-700">
                 Remove
               </button>
             </div>
@@ -84,18 +84,18 @@ setCount((count));
 
               {/* Quantity */}
               <div className="flex items-center gap-3">
-                <button className="flex h-8 w-8 items-center justify-center rounded-md border hover:bg-gray-100">
+                <button  onClick={decrement }className="flex h-8 w-8 items-center justify-center rounded-md border hover:bg-gray-100">
                   -
                 </button>
 
                 <span className="font-medium">{count}</span>
 
-                <button className="flex h-8 w-8 items-center justify-center rounded-md border hover:bg-gray-100">
+                <button  onClick={increment} className="flex h-8 w-8 items-center justify-center rounded-md border hover:bg-gray-100">
                   +
                 </button>
               </div>
 
-              <button className="ml-4 text-sm text-red-500 hover:text-red-700">
+              <button  onClick={reset} className="ml-4 text-sm text-red-500 hover:text-red-700">
                 Remove
               </button>
             </div>
