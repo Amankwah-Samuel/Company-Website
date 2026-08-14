@@ -76,7 +76,7 @@ setCount((0));
                 <h3 className="font-semibold text-gray-900">Headphones</h3>
 
                 <p className="mt-1 text-sm text-gray-500">
-                  Wireless Headphones
+                  Wireless Headsets
                 </p>
 
                 <p className="mt-2 font-medium">$120</p>
