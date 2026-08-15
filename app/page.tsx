@@ -110,7 +110,7 @@ setCount((0));
                 <h3 className="font-semibold text-gray-900">Keyboard</h3>
 
                 <p className="mt-1 text-sm text-gray-500">
-                  Mechanical Keyboard
+                  Standard Keyboard
                 </p>
 
                 <p className="mt-2 font-medium">$75</p>
