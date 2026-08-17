@@ -141,7 +141,7 @@ setCount((0));
 
             <div className="space-y-4">
               <div className="flex justify-between text-gray-600">
-                <span>Subtotal</span>
+                <span>Sub-total</span>
                 <span>$111,748</span>
               </div>
 
